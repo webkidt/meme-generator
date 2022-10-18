@@ -10,6 +10,10 @@ body {
   font-family: 'Karla', sans-serif;
 }
 
+main {
+  padding: 36px;
+}
+
 #root {
   width: 600px;
   margin: 0 auto;
@@ -37,4 +41,27 @@ body {
 .header--project {
   font-size: .75rem;
   font-weight: 500;
+}
+
+.form {
+  display: grid;
+  grid-template: 40px 40px / 1fr 1fr;
+  gap: 17px;
+}
+
+.form--input {
+  font-family: 'Karla', sans-serif;
+  border-radius: 5px;
+  border: 1px solid #D5D4D8;
+  text-indent: 5px;
+}
+
+.form--button {
+  grid-column: 1 / -1;
+  font-family: 'Karla', sans-serif;
+  border-radius: 5px;
+  background: linear-gradient(90deg, #672280 1.18%, #A626D3 100%);
+  color: white;
+  border: none;
+  cursor: pointer;
 }
